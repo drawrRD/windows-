@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MyMapleStory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MyMapleStory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MyMapleStory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+			<Add library="winmm" />
+		</Linker>
+		<Unit filename="character.cpp" />
+		<Unit filename="character.h" />
+		<Unit filename="game1.cpp" />
+		<Unit filename="game1.h" />
+		<Unit filename="game2.cpp" />
+		<Unit filename="game2.h" />
+		<Unit filename="home.cpp" />
+		<Unit filename="home.h" />
+		<Unit filename="judge1.cpp" />
+		<Unit filename="judge1.h" />
+		<Unit filename="judge2.cpp" />
+		<Unit filename="judge2.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="maphome.cpp" />
+		<Unit filename="maphome.h" />
+		<Unit filename="replay.cpp" />
+		<Unit filename="replay.h" />
+		<Unit filename="ui.cpp" />
+		<Unit filename="ui.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

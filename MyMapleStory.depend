@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1717984802 source:d:\桌面\windows\期末\mymaplestory\game1.cpp
+	"game1.h"
+
+1717936799 d:\桌面\windows\期末\mymaplestory\game1.h
+	"judge1.h"
+	"character.h"
+	"ui.h"
+
+1718116423 source:d:\桌面\windows\期末\mymaplestory\main.cpp
+	"home.h"
+	"maphome.h"
+	"game1.h"
+	"game2.h"
+	"character.h"
+	"replay.h"
+
+1717992660 d:\桌面\windows\期末\mymaplestory\character.h
+	<windows.h>
+	<math.h>
+	<time.h>
+
+1717947657 source:d:\桌面\windows\期末\mymaplestory\character.cpp
+	"character.h"
+
+1717733015 d:\桌面\windows\期末\mymaplestory\judge1.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	"character.h"
+
+1717984786 source:d:\桌面\windows\期末\mymaplestory\judge1.cpp
+	"judge1.h"
+
+1717076357 source:d:\桌面\windows\期末\mymaplestory\pause.cpp
+	"pause.h"
+
+1716981634 d:\桌面\windows\期末\mymaplestory\pause.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	"character.h"
+
+1718116554 source:d:\桌面\windows\期末\mymaplestory\judge2.cpp
+	"judge2.h"
+
+1717733018 d:\桌面\windows\期末\mymaplestory\judge2.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	"character.h"
+
+1717988342 d:\桌面\windows\期末\mymaplestory\game2.h
+	"judge2.h"
+	"character.h"
+	"ui.h"
+	"replay.h"
+
+1718026856 source:d:\桌面\windows\期末\mymaplestory\game2.cpp
+	"game2.h"
+
+1717919743 source:d:\桌面\windows\期末\mymaplestory\maphome.cpp
+	"maphome.h"
+
+1717919668 d:\桌面\windows\期末\mymaplestory\maphome.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	"character.h"
+
+1717943240 source:d:\桌面\windows\期末\mymaplestory\ui.cpp
+	"ui.h"
+
+1717941981 d:\桌面\windows\期末\mymaplestory\ui.h
+	<windows.h>
+	<math.h>
+	<stdio.h>
+	"character.h"
+
+1717934896 source:d:\桌面\windows\期末\mymaplestory\home.cpp
+	"home.h"
+
+1717921916 d:\桌面\windows\期末\mymaplestory\home.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	"character.h"
+
+1718033955 source:d:\桌面\windows\期末\mymaplestory\replay.cpp
+	"replay.h"
+
+1717992587 d:\桌面\windows\期末\mymaplestory\replay.h
+	<windows.h>
+	<math.h>
+	<time.h>
+	"character.h"
+	"ui.h"
+
